@@ -50,7 +50,7 @@ tensorflow==1.8.0
 
 # Forcing bleach to 1.5 to avoid version incompatibility when installing
 # TensorBoard.
-bleach==1.5.0
+bleach==2.1
 
 Keras==2.1.6
 
@@ -90,3 +90,5 @@ jupyter-tensorboard==0.1.6
 # Optional: these are useful Jupyter extensions, in particular to display the
 # table of contents
 jupyter-contrib-nbextensions==0.5.0
+
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
